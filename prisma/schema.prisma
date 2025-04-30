@@ -180,6 +180,7 @@ model Sanctiontable {
   sigDisconnectionRequirements String?
   trdDisconnectionRequirements String?
   adSaved                      String?
+  @@map("Sanctiontable") 
 }
 
 model SuperAdmin {

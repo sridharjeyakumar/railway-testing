@@ -144,7 +144,7 @@ export async function updateOptimizedData(formData, requestId) {
 }
 
 export async function getDataOptimised() {
-  const res = await prisma.sanctiontable.findMany({});
+  const res = await prisma.Sanctiontable.findMany({});
   return { result: res };
 }
 
